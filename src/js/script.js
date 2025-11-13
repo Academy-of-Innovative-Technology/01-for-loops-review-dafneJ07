@@ -1,5 +1,5 @@
-let runButton = document.querySelector('#pg-run');
-let resetButton = document.querySelector('#pg-reset');
+let runButton = document.querySelector('.btn btn-primary fw-semibold');
+let resetButton = document.querySelector('.btn btn-outline-secondary');
 let resultRow = document.querySelector('#pg-row');
 
 function runCountingLoop() {
